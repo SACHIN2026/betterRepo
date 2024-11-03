@@ -14,10 +14,15 @@ export default function MortgageCalculator() {
   const [downPayment, setDownPayment] = useState(10000)
   const [downPaymentPercent, setDownPaymentPercent] = useState(20)
   const [loanTerm, setLoanTerm] = useState(30)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [interestRate, setInterestRate] = useState(0.045) // 4.5%
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [propertyTax, setPropertyTax] = useState(265)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [homeInsurance, setHomeInsurance] = useState(132)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [hoaFees, setHoaFees] = useState(132)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [utilities, setUtilities] = useState(100)
 
   // Calculate monthly mortgage payment

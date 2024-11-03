@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Home, RefreshCw, DollarSign, Phone, Star, BarChart, Gift, Layout } from "lucide-react"
+import { Home, RefreshCw, DollarSign, Phone, BarChart, Gift, Layout } from "lucide-react"
 
 export default function StartPage() {
   return (
@@ -72,7 +72,7 @@ export default function StartPage() {
             </div>
 
             <Card className="bg-gray-50 p-6">
-              <p className="text-sm text-gray-600 mb-4">After a few questions, you'll unlock:</p>
+              <p className="text-sm text-gray-600 mb-4">After a few questions, you&apos;ll unlock:</p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <BarChart className="w-5 h-5 mr-3 text-[#004d40]" />
@@ -106,7 +106,7 @@ export default function StartPage() {
               <div>
                 <h3 className="font-bold text-sm mb-1">Better Mortgage</h3>
                 <p className="text-sm text-gray-600">
-                  We can't wait to say "Welcome home." Apply 100% online with expert customer support.
+                  We can&apos;t wait to say &quot;Welcome home.&quot; Apply 100% online with expert customer support.
                 </p>
               </div>
 
@@ -180,7 +180,7 @@ export default function StartPage() {
                 <li><Link href="#" className="text-gray-600 hover:text-gray-900">NMLS Consumer Access</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-gray-900">Privacy Policy</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-gray-900">Terms of Use</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Disclosures & Licensing</Link></li>
+                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Disclosures &amp; Licensing</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-gray-900">Affiliated Business</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-gray-900">Browser Disclaimer</Link></li>
               </ul>

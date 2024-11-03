@@ -41,7 +41,7 @@ export default function AboutUs() {
                   Our mission
                 </h1>
                 <p className="text-2xl md:text-3xl font-medium leading-tight">
-                  We're making homeownership simpler, faster — and most importantly, more accessible for all Americans.
+                  We&apos;re making homeownership simpler, faster — and most importantly, more accessible for all Americans.
                 </p>
                 <div className="space-y-4">
                   <h2 className="text-xl font-semibold">The status quo is broken</h2>
@@ -53,23 +53,23 @@ export default function AboutUs() {
                   </Button>
                 </div>
               </div>
-                <div className="relative h-[400px]">
+              <div className="relative h-[400px]">
                 <Image
                   src="https://media.better.com/video/vishal-mission.jpg"
                   alt="Team member"
                   fill
                   className="object-cover rounded-lg"
                 />
-                </div>
+              </div>
             </div>
           </div>
         </section>
 
         <section className="bg-[#004d40] text-white py-16 px-4">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold mb-6">How we're changing things</h2>
+            <h2 className="text-3xl font-bold mb-6">How we&apos;re changing things</h2>
             <p className="text-lg text-white/90 max-w-3xl">
-              We're committed to making homeownership more accessible by removing unnecessary fees, using technology to reduce costs, and offering a fully digital experience that puts you in control.
+              We&apos;re committed to making homeownership more accessible by removing unnecessary fees, using technology to reduce costs, and offering a fully digital experience that puts you in control.
             </p>
           </div>
         </section>
